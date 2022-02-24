@@ -1,0 +1,9 @@
+<style>
+  .calendarLinks ul li {
+    display: inline-block;
+  }
+  .calendarLinks ul li:not(:last-child):after {
+    content: "|";
+	padding: 5px;
+  }
+</style>
