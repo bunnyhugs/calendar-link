@@ -1,0 +1,85 @@
+<!--// These must be at the top //-->
+<link rel="stylesheet" href="https://bunnyhugs.github.io/calendar-link/style.css">
+<script src="https://cdn.jsdelivr.net/npm/calendar-link@2.1.1/dist/index.umd.js"></script>
+<script src="https://bunnyhugs.github.io/calendar-link/calendar-link-gen.js"></script>
+<!--// **
+Calendar Link Generator Example: 
+  
+  Include a <div class="calendarLinks"></div> with data-calendar- fields to auto-generate calendar links.
+
+  {URL} is replaced in the calendar entry's Location field ONLY with the value of data-calendar-link.
+  {URLLink} is replaced in the calendar entry's Description field ONLY with a link to data-calendar-link,
+            using data-calendar-linktext as the text of the link.
+  
+  Using duration (in hours):
+
+    <div data-calendar-title=       "Welcome session 1.5 hr Duration"
+         data-calendar-start=       "2022-12-01 09:00:00 -0700"
+         data-calendar-duration=    "1.5"
+         data-calendar-linktext=    "here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "Join the session {URLLink}."
+         data-calendar-link=        "https://teams.microsoft.com/l/meetup-join/19:meeting_YWMxZjI4YjMtYzE4My00MTFkLThhY2EtOTQzYzc0MzdhZDM1@thread.v2/0?context=%7b%22Tid%22%3a%22d2f4498a-89f4-4892-a279-3a7d3d673b82%22%2c%22Oid%22%3a%222ec36ee3-fdcc-4653-aafc-60ed3c4ae13e%22%7d"
+         class="calendarLinks"></div>
+
+  Using end time, during Daylight Saving Time:
+
+    <div data-calendar-title=       "Test Session End Time MDT"
+         data-calendar-start=       "2022-06-01 09:00:00 -0600"
+         data-calendar-start=       "2022-06-02 13:00:00 -0600"
+         data-calendar-linktext=    "Click here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "{URLLink} to join the session."
+         data-calendar-link=        "https://teams.microsoft.com/l/meetup-join/19:meeting_YWMxZjI4YjMtYzE4My00MTFkLThhY2EtOTQzYzc0MzdhZDM1@thread.v2/0?context=%7b%22Tid%22%3a%22d2f4498a-89f4-4892-a279-3a7d3d673b82%22%2c%22Oid%22%3a%222ec36ee3-fdcc-4653-aafc-60ed3c4ae13e%22%7d"
+         class="calendarLinks"></div>
+
+  Using all day events:
+    <div data-calendar-title=       "Test Session All Day"
+         data-calendar-start=       "2022-06-01"
+         data-calendar-start=       "2022-06-10"
+         data-calendar-linktext=    "Click here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "{URLLink} to join the session."
+         data-calendar-link=        "https://us02web.zoom.us/j/9335524863?pwd=c05VOTJObSttVlJyRmZwQUlOWkwwQT09"
+         class="calendarLinks"></div>
+
+**  //-->
+<div>
+
+    <div data-calendar-title=       "Welcome session 1.5 hr Duration"
+         data-calendar-start=       "2022-12-01 09:00:00 -0700"
+         data-calendar-duration=    "1.5"
+         data-calendar-linktext=    "here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "Join the session {URLLink}."
+         data-calendar-link=        "https://teams.microsoft.com/l/meetup-join/19:meeting_YWMxZjI4YjMtYzE4My00MTFkLThhY2EtOTQzYzc0MzdhZDM1@thread.v2/0?context=%7b%22Tid%22%3a%22d2f4498a-89f4-4892-a279-3a7d3d673b82%22%2c%22Oid%22%3a%222ec36ee3-fdcc-4653-aafc-60ed3c4ae13e%22%7d"
+         class="calendarLinks"></div>
+
+	You can put other content here if you want.
+
+    <div data-calendar-title=       "Test Session End Time MDT"
+         data-calendar-start=       "2022-06-01 09:00:00 -0600"
+         data-calendar-start=       "2022-06-02 13:00:00 -0600"
+         data-calendar-linktext=    "Click here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "{URLLink} to join the session."
+         data-calendar-link=        "https://teams.microsoft.com/l/meetup-join/19:meeting_YWMxZjI4YjMtYzE4My00MTFkLThhY2EtOTQzYzc0MzdhZDM1@thread.v2/0?context=%7b%22Tid%22%3a%22d2f4498a-89f4-4892-a279-3a7d3d673b82%22%2c%22Oid%22%3a%222ec36ee3-fdcc-4653-aafc-60ed3c4ae13e%22%7d"
+         class="calendarLinks"></div>
+</div>
+
+<div>
+  You don't have to have all the links next to each other. You can have content in-between.
+</div>
+<div>
+  <img src="" height="300" width="300" style="border: 1px solid; margin: 50px;" />
+  
+  Using all day events:
+    <div data-calendar-title=       "Test Session All Day"
+         data-calendar-start=       "2022-06-01"
+         data-calendar-start=       "2022-06-10"
+         data-calendar-linktext=    "Click here"
+         data-calendar-location=    "{URL}"
+         data-calendar-description= "{URLLink} to join the session."
+         data-calendar-link=        "https://us02web.zoom.us/j/9335524863?pwd=c05VOTJObSttVlJyRmZwQUlOWkwwQT09"
+         class="calendarLinks"></div>
+</div>

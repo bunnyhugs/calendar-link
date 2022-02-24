@@ -1,8 +1,8 @@
 <style>
-  .calendarLinks ul li {
+  div.calendarLinks ul li {
     display: inline-block;
   }
-  .calendarLinks ul li:not(:last-child):after {
+  div.calendarLinks ul li:not(:last-child):after {
     content: "|";
 	padding: 5px;
   }
