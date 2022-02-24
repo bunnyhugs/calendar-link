@@ -20,6 +20,7 @@ ready(function() {
 				let description = link.getAttribute("data-calendar-description");
 				let location = link.getAttribute("data-calendar-location");
 				let url  = link.getAttribute("data-calendar-link");
+				let allDay  = link.getAttribute("data-calendar-allday");
 				
 				description = description.replace('{URLLink}', '<a href="' + url + '">' + linkText + '</a>');
 				location = location.replace("{URL}", url);
@@ -28,6 +29,7 @@ ready(function() {
 					title: title,
 					start: start,
 					end: end,
+					allDay: allDay,
 					duration: [duration, "hour"],
 					link: url,
 					linkText: linkText,
