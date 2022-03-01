@@ -1,9 +1,31 @@
 <style>
   div.calendarLinks ul li {
-    display: inline-block;
+    // display: inline-block;
   }
-  div.calendarLinks ul li:not(:last-child):after {
+  div.calendarLinks ul li:first-child:after {
+	content: " ";
+	padding: 7px;
+  }
+  div.calendarLinks ul li:not(:last-child):not(:first-child):after {
     content: "|";
-	padding: 5px;
+	padding: 7px;
+  }
+  a.calendarLink {
+	text-decoration: none;
+  }
+  a.googleCalendarLink::before {
+	content: url(google-24.png);
+	padding-right: 3px;
+	vertical-align: middle;
+  }
+  a.office365CalendarLink::before {
+	content: url(office-365-24.png);
+	padding-right: 3px;
+	vertical-align: middle;
+  }
+  a.outlookCalendarLink::before {
+	content: url(outlook-24.png);
+	padding-right: 3px;
+	vertical-align: middle;
   }
 </style>
