@@ -43,7 +43,7 @@ ready(function() {
 				let eventLinks = "<ul><li style=\"display: inline-block;\">" + title + "</li>";
 				eventLinks += "<li style=\"display: inline-block;\"><a href=\"" + calendarLink.google(event) + "\" target=\"_blank\">Google</a></li>";
 				eventLinks += "<li style=\"display: inline-block;\"><a href=\"" + calendarLink.office365(event) + "\" target=\"_blank\">Office365</a></li>";
-				eventLinks += "<li style=\"display: inline-block;\"><a href=\"" + calendarLink.outlook(event) + "\" target=\"_blank\">Outlook</a></li>";
+#				eventLinks += "<li style=\"display: inline-block;\"><a href=\"" + calendarLink.outlook(event) + "\" target=\"_blank\">Outlook</a></li>";
 				eventLinks += "<li style=\"display: inline-block;\"><a href=\"" + calendarLink.ics(event) + "\" target=\"_blank\">iCal</a></li>";
 				eventLinks += "</ul>";
 				
